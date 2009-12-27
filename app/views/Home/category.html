@@ -1,0 +1,11 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+Wow:
+<div id="main">
+    <div id="sidetree">
+        <div class="treeheader">&nbsp;</div>
+        <div id="sidetreecontrol"><a href="?#">Collapse All</a> | <a href="?#">Expand All</a></div>
+        #{categoryTreeViewer parent:menu,idOfRootElement:'tree'/}
+    </div>
+</div>

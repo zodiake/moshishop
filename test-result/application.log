@@ -1,0 +1,172 @@
+27 Dec 2009 19:13:30,738 INFO  ~ Starting /home/kaan/codes/yamanyar-shop
+27 Dec 2009 19:13:30,745 INFO  ~ Module crud is available (/home/kaan/apps/play/modules/crud)
+27 Dec 2009 19:13:30,745 INFO  ~ Module test-runner is available (/home/kaan/apps/play/modules/test-runner)
+27 Dec 2009 19:13:30,871 INFO  ~ 
+27 Dec 2009 19:13:30,871 INFO  ~ Go to http://localhost:9000/@tests to run the tests
+27 Dec 2009 19:13:30,871 INFO  ~ 
+27 Dec 2009 19:13:30,871 WARN  ~ You're running Play! in DEV mode
+27 Dec 2009 19:13:30,940 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+27 Dec 2009 19:14:44,904 INFO  ~ Connected to jdbc:hsqldb:mem:playembed
+27 Dec 2009 19:14:45,573 INFO  ~ Application 'YamanyarShop' is now started !
+27 Dec 2009 19:14:46,742 ERROR ~ 
+
+@61312ji5c
+Internal Server Error (500) for request GET /home/category
+
+Template compilation error (In /app/views/tags/categoryTreeViewer.html around line 1)
+The template /app/views/tags/categoryTreeViewer.html does not compile : unexpected token: : 
+
+play.exceptions.TemplateCompilationException: unexpected token: : 
+	at play.templates.Template.compile(Template.java:172)
+	at play.templates.Template.render(Template.java:183)
+	at play.templates.Template$ExecutableTemplate.invokeTag(Template.java:359)
+	at /app/views/Home/category.html.(line:5)
+	at play.templates.Template.render(Template.java:207)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:22)
+	at play.mvc.Controller.renderTemplate(Controller.java:377)
+	at play.mvc.Controller.render(Controller.java:410)
+	at controllers.Home.category(Home.java:14)
+	at play.utils.Java.invokeStatic(Java.java:129)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:127)
+	at Invocation.HTTP Request(Play!)
+27 Dec 2009 19:14:46,863 ERROR ~ 
+
+@61312ji5d
+Internal Server Error (500) for request GET /favicon.ico
+
+Template not found
+The template errors/404.null does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : errors/404.null
+	at play.templates.TemplateLoader.load(TemplateLoader.java:69)
+	at play.mvc.results.NotFound.apply(NotFound.java:51)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:218)
+	at Invocation.HTTP Request(Play!)
+27 Dec 2009 19:15:04,083 ERROR ~ 
+
+@61312ji5e
+Internal Server Error (500) for request GET /home/category
+
+Template compilation error (In /app/views/tags/categoryTreeViewer.html around line 1)
+The template /app/views/tags/categoryTreeViewer.html does not compile : #{_idOfRootElement} is not closed.
+
+play.exceptions.TemplateCompilationException: #{_idOfRootElement} is not closed.
+	at play.templates.TemplateCompiler$Compiler.hop(TemplateCompiler.java:161)
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:46)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:28)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:59)
+	at play.templates.Template$ExecutableTemplate.invokeTag(Template.java:329)
+	at /app/views/Home/category.html.(line:5)
+	at play.templates.Template.render(Template.java:207)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:22)
+	at play.mvc.Controller.renderTemplate(Controller.java:377)
+	at play.mvc.Controller.render(Controller.java:410)
+	at controllers.Home.category(Home.java:14)
+	at play.utils.Java.invokeStatic(Java.java:129)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:127)
+	at Invocation.HTTP Request(Play!)
+27 Dec 2009 19:16:30,392 ERROR ~ 
+
+@61312ji5f
+Internal Server Error (500) for request GET /home/category
+
+Template compilation error (In /app/views/tags/categoryTreeViewer.html around line 7)
+The template /app/views/tags/categoryTreeViewer.html does not compile : unexpected token: parent 
+
+play.exceptions.TemplateCompilationException: unexpected token: parent 
+	at play.templates.Template.compile(Template.java:172)
+	at play.templates.Template.render(Template.java:183)
+	at play.templates.Template$ExecutableTemplate.invokeTag(Template.java:359)
+	at /app/views/Home/category.html.(line:5)
+	at play.templates.Template.render(Template.java:207)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:22)
+	at play.mvc.Controller.renderTemplate(Controller.java:377)
+	at play.mvc.Controller.render(Controller.java:410)
+	at controllers.Home.category(Home.java:14)
+	at play.utils.Java.invokeStatic(Java.java:129)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:127)
+	at Invocation.HTTP Request(Play!)
+27 Dec 2009 19:16:50,221 ERROR ~ 
+
+@61312ji5g
+Internal Server Error (500) for request GET /home/category
+
+Template compilation error (In /app/views/tags/categoryTreeViewer.html around line 7)
+The template /app/views/tags/categoryTreeViewer.html does not compile : unexpected token: idOfRootElement 
+
+play.exceptions.TemplateCompilationException: unexpected token: idOfRootElement 
+	at play.templates.Template.compile(Template.java:172)
+	at play.templates.Template.render(Template.java:183)
+	at play.templates.Template$ExecutableTemplate.invokeTag(Template.java:359)
+	at /app/views/Home/category.html.(line:5)
+	at play.templates.Template.render(Template.java:207)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:22)
+	at play.mvc.Controller.renderTemplate(Controller.java:377)
+	at play.mvc.Controller.render(Controller.java:410)
+	at controllers.Home.category(Home.java:14)
+	at play.utils.Java.invokeStatic(Java.java:129)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:127)
+	at Invocation.HTTP Request(Play!)
+27 Dec 2009 19:17:50,798 ERROR ~ 
+
+@61312ji5h
+Internal Server Error (500) for request GET /home/category
+
+Template compilation error (In /app/views/tags/categoryTreeViewer.html around line 7)
+The template /app/views/tags/categoryTreeViewer.html does not compile : #{categoryTreeViewer} is not closed.
+
+play.exceptions.TemplateCompilationException: #{categoryTreeViewer} is not closed.
+	at play.templates.TemplateCompiler$Compiler.endTag(TemplateCompiler.java:321)
+	at play.templates.TemplateCompiler$Compiler.hop(TemplateCompiler.java:148)
+	at play.templates.TemplateCompiler.compile(TemplateCompiler.java:46)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:33)
+	at play.templates.TemplateLoader.load(TemplateLoader.java:59)
+	at play.templates.Template$ExecutableTemplate.invokeTag(Template.java:329)
+	at /app/views/Home/category.html.(line:5)
+	at play.templates.Template.render(Template.java:207)
+	at play.mvc.results.RenderTemplate.<init>(RenderTemplate.java:22)
+	at play.mvc.Controller.renderTemplate(Controller.java:377)
+	at play.mvc.Controller.render(Controller.java:410)
+	at controllers.Home.category(Home.java:14)
+	at play.utils.Java.invokeStatic(Java.java:129)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:127)
+	at Invocation.HTTP Request(Play!)
+27 Dec 2009 19:41:47,298 ERROR ~ 
+
+@61312ji5l
+Internal Server Error (500) for request GET /stylesheets/jquery.treeview.css
+
+Template not found
+The template errors/404.null does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : errors/404.null
+	at play.templates.TemplateLoader.load(TemplateLoader.java:69)
+	at play.mvc.results.NotFound.apply(NotFound.java:51)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:218)
+	at Invocation.HTTP Request(Play!)
+27 Dec 2009 19:41:50,147 ERROR ~ 
+
+@61312ji5o
+Internal Server Error (500) for request GET /stylesheets/jquery.treeview.css
+
+Template not found
+The template errors/404.null does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : errors/404.null
+	at play.templates.TemplateLoader.load(TemplateLoader.java:69)
+	at play.mvc.results.NotFound.apply(NotFound.java:51)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:218)
+	at Invocation.HTTP Request(Play!)
+27 Dec 2009 19:41:50,170 ERROR ~ 
+
+@61312ji60
+Internal Server Error (500) for request GET /stylesheets/jquery.treeview.css
+
+Template not found
+The template errors/404.null does not exist.
+
+play.exceptions.TemplateNotFoundException: Template not found : errors/404.null
+	at play.templates.TemplateLoader.load(TemplateLoader.java:69)
+	at play.mvc.results.NotFound.apply(NotFound.java:51)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:218)
+	at Invocation.HTTP Request(Play!)
