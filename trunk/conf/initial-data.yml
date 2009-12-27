@@ -1,0 +1,63 @@
+Category(bookCat) :
+ name: Books
+ headline: Best books
+ description: Low price, high quality books
+ active: true
+ rank: 10
+
+Category(mathBook):
+ name: Math
+ headline: Math Books
+ description: A to Z Math
+ active: true
+ rank: 12
+ parent: bookCat
+
+Category(scienceBook):
+ name: Science
+ headline: Science books
+ description: Low price, high science
+ active: true
+ rank: 7
+ parent: bookCat
+
+Category(subScienceBook1):
+ name: Social Science
+ headline: Be Social!
+ description: Low price, high social
+ active: true
+ rank: 8
+ parent: scienceBook
+
+Category(subScienceBook2):
+ name: Physics Science
+ headline: Math is the best
+ description: Funny Math Books
+ active: true
+ rank: 4
+ parent: scienceBook
+
+Category(audio) :
+ name: Music
+ headline: Best music
+ description: Low price, high music
+ active: true
+ rank: 10
+
+Category(subAudio1):
+ name: Rock
+ headline: Let's Rock
+ description: Elvis Pressley to Led Zeppelin
+ active: true
+ rank: 4
+ parent: audio
+
+Category(subAudio2):
+ name: Pop
+ headline: Disco and Pop Here
+ description: Let's Dance
+ active: true
+ rank: 2
+ parent: audio
+
+

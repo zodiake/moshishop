@@ -1,0 +1,22 @@
+Category(bookCat) :
+ name: Books
+ headline: Best books
+ description: Low price, high quality books
+ active: true
+ rank: 10
+
+Category(mathBook):
+ name: Math
+ headline: Math Books
+ description: A to Z Math
+ active: true
+ rank: 12
+ parent: bookCat
+
+Category(scienceBook):
+ name: Science
+ headline: Science books
+ description: Low price, high science
+ active: true
+ rank: 7
+ parent: bookCat

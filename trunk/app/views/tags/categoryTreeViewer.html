@@ -1,0 +1,14 @@
+<ul id="${_idOfRootElement ? _idOfRootElement : 'd'}">
+    #{list items:_parent.childs, as:'menuItem' }
+    <li>
+        <span>
+             %{ if (menuItem.childs.size == 0) { }%
+            <a href="@{Home.category(menuItem.id)}">${menuItem.name}</a>
+             %{ } else { }%
+            ${menuItem.name}
+             %{ } }%
+        </span>
+        #{categoryTreeViewer parent:menuItem, idOfRootElement:'treeId_'+(menuItem.id) /}
+    </li>
+    #{/list}
+</ul>
