@@ -6,7 +6,7 @@ import models.*;
 
 @OnApplicationStart
 public class Bootstrap extends Job {
-
+         
     public void doJob() {
 
         if(Category.count() == 0) {
