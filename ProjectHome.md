@@ -1,0 +1,1 @@
+A simple e-commerce for small stores written with play framework. Currently a prototype is being written.
